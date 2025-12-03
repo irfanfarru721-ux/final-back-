@@ -1,4 +1,4 @@
-import jwt from 'j
+import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
 
 export const adminProtect = async (req,res,next) => {
