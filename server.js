@@ -17,7 +17,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://front-frontend-admin.onrender.com",
+      "https://frontend-admin-lhhq.onrender.com",
       "http://localhost:5173",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
